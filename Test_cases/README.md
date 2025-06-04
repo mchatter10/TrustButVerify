@@ -8,8 +8,8 @@ For high-quality results, if the submodule specificaitons are embedded in the sy
 - security_feature: one security feature from the assessment. <br>
 
 ```bash
-[DOC1]  =  {Submodule_Spec_Doc.pdf}
-[TABLE1] =  {ModuleName_Security_Assessment.csv}
+[DOC1]    =  {Submodule_Spec_Doc.pdf}
+[TABLE1]  =  {ModuleName_Security_Assessment.csv}
 Your response must be bounded from [DOC1]. List all signals of the design that impact {security_feature}
 ```
 Signal table can be saved as a csv or txt file such as "Extracted_Signals.csv"
