@@ -9,3 +9,8 @@ Follow the prompting instructions for each of the phases in the following order:
 1. Security Assessment
 2. Generate Test Cases
 3. Generate Assertions
+
+## Required Tools
+This workflow can be applied to a chatbot LLM or the LLM API can be integrated into a python script. <br>
+The prompt templates for each workflow phase were intended to use in a chatbot prompt. The sessions could be a continuous chat or responses can be saved to upload for a new session. <br>
+The Trust-but-Verify Python Notebook is intended to serve as a template to incorporate with an LLM API. <br>
