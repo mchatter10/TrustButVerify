@@ -13,7 +13,7 @@ Describe how an FPGA device would implement the following security features:
 {[security_features]}
 The response should be in table format with columns for security feature and guidance."
 ```
-Security Feature Guidance table can be saved as a csv or txt file. In this example, the table 
+Security Feature Guidance table can be saved as a csv or txt file such as "Extracted_Guidance.csv"
 
 
 ## Step 2: Security Assessment
