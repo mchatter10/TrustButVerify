@@ -23,7 +23,7 @@ The following prompt is to generate a security assessment of the specified desig
 - [security_features]: the same list from Step 1.
 ```bash
 [TABLE0] = {Extracted_Guidance}
-[DOC1] = {Top_Module_Spec_Doc}
+[DOC1]   = {Top_Module_Spec_Doc}
 Your response must be bounded from [TABLE0] and [DOC1].
 Does the design defined in [DOC1] have any of the following security features:
 {[security_features]} 
