@@ -1,7 +1,8 @@
-# Chatbot Steps
+# Chatbot Steps to Generate Test Cases
 
 ## Step 1: Extract Relevant Signals
 The following prompt is to create a table of signals that directly impact the specified security feature. <br>
+It is recommended to perform these steps on a submodule or IP. The selected submodule should be one that impacts multiple security features, as identified from the security assessment. <br>
 - Submodule_Spec_Doc: the design or product specification document of the submodule as a .txt or .pdf file. <br>
 - ModuleName_Security_Assessment: the security assessment of the specified design as a .csv or reference to table if in an active chat session.
 For high-quality results, if the submodule specificaitons are embedded in the system specification, it is recommended to seperate the submodule into a sepearate file. This will help focus the LLM to the contents of the submodule <br>
