@@ -31,7 +31,7 @@ Your response must be bounded from [DOC1] and any recollection of dependency gra
 ## Step 3: Test Case Generation
 The following prompt is to create a table of test cases that test the behavior of the signals that directly impact the selected security feature.<br>
 
-- signal_dependencies
+- signal_dependencies: the previously generated table of signals depedencies of the signals that impact the security feature of interest as a .csv or reference to table if in an active chat session.
 - Submodule_Spec_Doc: the design or product specification document of the submodule as a .txt or .pdf file. <br>
 - sigal_list: an optional file that contains more detailed descriptions of signals (ports, registers, etc.) and their behaviors, state transitions, timing, etc. as a .csv, .txt, .or .pdf file.
 - signal: the signal of interest
