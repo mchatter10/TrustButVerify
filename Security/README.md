@@ -1,4 +1,4 @@
-# Chatbot Steps
+# Chatbot Steps to Generate Security Assessment
 
 ## Step 1: Extract Mitigation Techniques
 The following prompt is to extract mitigation techniques from a specified FPGA design guideline document. <br>
