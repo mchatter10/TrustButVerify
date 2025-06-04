@@ -36,8 +36,8 @@ The following prompt is to create a table of test cases that test the behavior o
 - sigal_list: an optional file that contains more detailed descriptions of signals (ports, registers, etc.) and their behaviors, state transitions, timing, etc. as a .csv, .txt, .or .pdf file.
 - signal: the signal of interest
 ```bash
-[DOC0]   =   {sigal_list}
-[DOC1]   =   {Submodule_Spec_Doc}
+[DOC0]   =  {sigal_list}
+[DOC1]   =  {Submodule_Spec_Doc}
 [TABLE2] =  {signal_dependencies}
 Your response must be bounded from [DOC0], [DOC1],[TABLE2], and knowledge of defining test cases for a Hardware Verification Test Plan.
 Define test cases for the {signal} signal to demonstrate signal behavior and timing relationships for the design. The response must be a table that includes: Test case ID, Test name, test case description, stimulus description, and description of the expected behavior
