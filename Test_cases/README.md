@@ -8,9 +8,9 @@ For high-quality results, if the submodule specificaitons are embedded in the sy
 - security_feature: one security feature from the assessment. <br>
 
 ```bash
-"[DOC1] = {Submodule_Spec_Doc.pdf}
-[TABLE1] = {ModuleName_Security_Assessment.csv}
-Your response must be bounded from [DOC1]. List all signals of the design that impact {security_feature}"
+[DOC1]  =  {Submodule_Spec_Doc.pdf}
+[TABLE1] =  {ModuleName_Security_Assessment.csv}
+Your response must be bounded from [DOC1]. List all signals of the design that impact {security_feature}
 ```
 Signal table can be saved as a csv or txt file such as "Extracted_Signals.csv"
 
@@ -22,8 +22,8 @@ The following prompt is to create a table that maps the signals of interest to o
 - Extracted_Signals: the previously generated table of signals that impact the security feature of interest as a .csv or reference to table if in an active chat session.
 - signal: the signal of interest
 ```bash
-[DOC0] = {sigal_list}
-[DOC1] = {Submodule_Spec_Doc}
+[DOC0]   =  {sigal_list}
+[DOC1]   =  {Submodule_Spec_Doc}
 [TABLE1] = {Extracted_Signals}
 Your response must be bounded from [DOC1] and any recollection of dependency graphs from computer architecture. Create a table to show what signals are related to the {signal} register. The table must include the signal and relationship description
 ```
@@ -36,9 +36,9 @@ The following prompt is to create a table of test cases that test the behavior o
 - sigal_list: an optional file that contains more detailed descriptions of signals (ports, registers, etc.) and their behaviors, state transitions, timing, etc. as a .csv, .txt, .or .pdf file.
 - signal: the signal of interest
 ```bash
-[DOC0] = {sigal_list}
-[DOC1] =  {Submodule_Spec_Doc}
-[TABLE2] = {signal_dependencies}
+[DOC0]   =   {sigal_list}
+[DOC1]   =   {Submodule_Spec_Doc}
+[TABLE2] =  {signal_dependencies}
 Your response must be bounded from [DOC0], [DOC1],[TABLE2], and knowledge of defining test cases for a Hardware Verification Test Plan.
 Define test cases for the {signal} signal to demonstrate signal behavior and timing relationships for the design. The response must be a table that includes: Test case ID, Test name, test case description, stimulus description, and description of the expected behavior
 ```
