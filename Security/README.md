@@ -1,7 +1,7 @@
 # Chatbot Steps
 
 ## Step 1: Extract Mitigation Techniques
-The following prompt is to extract mitigation techniques from a specified FPGA design guideline document.
+The following prompt is to extract mitigation techniques from a specified FPGA design guideline document. <br>
 {[security_features]} is a list of security features the user provides such as: "Secure Boot, Encryption Algorithms"
 For high-quality results, it is recommended to provide a list of features that exist in the guideline document.
 
