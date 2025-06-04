@@ -1,0 +1,7 @@
+﻿Signal Name ,Dependent Signals ,Description of Relationship 
+TRIGGER.START ,"CTRL_SHADOWED.MANUAL_OPERATION, CTRL_SHADOWED.OPERATION, CTRL_SHADOWED.MODE ",TRIGGER.START only initiates AES encryption when MANUAL_OPERATION = 1. Also dependent on encryption mode and operation (enc/dec) to execute properly. 
+STATUS.INPUT_READY ,"DATA_IN_0–DATA_IN_3, CTRL_SHADOWED.MANUAL_OPERATION ","Indicates readiness to accept new input. If all DATA_IN_* registers are written and MANUAL_OPERATION = 0, AES starts and updates INPUT_READY. "
+CTRL_SHADOWED.MANUAL_OPERATION ,"TRIGGER.START, STATUS.INPUT_READY ",Controls whether encryption starts automatically or via TRIGGER.START. Influences if AES stalls for input/output readiness. 
+DATA_IN_0–DATA_IN_3 ,STATUS.INPUT_READY ,Writing to all DATA_IN_* registers causes STATUS.INPUT_READY to go low until the current block is processed. 
+CTRL_SHADOWED.MODE ,"TRIGGER.START, STATUS.INPUT_READY ","Determines block cipher mode (e.g., ECB, CBC) which affects whether IV is required and if auto-start is allowed. "
+CTRL_SHADOWED.OPERATION ,TRIGGER.START ,Specifies encryption (AES_ENC) or decryption (AES_DEC); required context for TRIGGER.START to act correctly. 
