@@ -24,7 +24,7 @@ The following prompt is to create a table that maps the signals of interest to o
 ```bash
 [DOC0]   =  {sigal_list}
 [DOC1]   =  {Submodule_Spec_Doc}
-[TABLE1] = {Extracted_Signals}
+[TABLE1] =  {Extracted_Signals}
 Your response must be bounded from [DOC1] and any recollection of dependency graphs from computer architecture. Create a table to show what signals are related to the {signal} register. The table must include the signal and relationship description
 ```
 
