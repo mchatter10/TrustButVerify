@@ -8,4 +8,4 @@
 
 This repository describes the prompts for each phase of the workflow.<br> 
 It is recommended to follow the prompts exactly as they are written for high quality results.<br>
-The prompt templates will include keywords in a format such as {varialbe}. Refer to the instructions in the section to understand what they represent and replace the variable with the file name or data that is relevant for your design.
+The prompt templates will include keywords in a format such as **{variabe}**. Refer to the instructions in the section to understand what they represent and replace the variable with the file name or data that is relevant for your design.
