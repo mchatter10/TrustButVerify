@@ -25,7 +25,9 @@ The following prompt is to create a table that maps the signals of interest to o
 [DOC0]   =  {sigal_list}
 [DOC1]   =  {Submodule_Spec_Doc}
 [TABLE1] =  {Extracted_Signals}
-Your response must be bounded from [DOC1] and any recollection of dependency graphs from computer architecture. Create a table to show what signals are related to the {signal} register. The table must include the signal and relationship description
+Your response must be bounded from [DOC1] and any recollection of dependency graphs from computer architecture.
+Create a table to show what signals are related to the {signal} register.
+The table must include the signal and relationship description
 ```
 
 ## Step 3: Test Case Generation
@@ -40,5 +42,7 @@ The following prompt is to create a table of test cases that test the behavior o
 [DOC1]   =  {Submodule_Spec_Doc}
 [TABLE2] =  {signal_dependencies}
 Your response must be bounded from [DOC0], [DOC1],[TABLE2], and knowledge of defining test cases for a Hardware Verification Test Plan.
-Define test cases for the {signal} signal to demonstrate signal behavior and timing relationships for the design. The response must be a table that includes: Test case ID, Test name, test case description, stimulus description, and description of the expected behavior
+Define test cases for the {signal} signal to demonstrate signal behavior and timing relationships for the design.
+The response must be a table that includes:
+Test case ID, Test name, test case description, stimulus description, and description of the expected behavior
 ```
