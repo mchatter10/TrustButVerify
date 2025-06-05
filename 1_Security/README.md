@@ -29,6 +29,7 @@ Does the design defined in [DOC1] have any of the following security features:
 {[security_features]} 
 Consider how the table's guidance for he security feature is being applied to the design. 
 Consider how the table's guidance of the security feature is being applied to the design.
-The response should be in table format to include security feature name, presence in the design, and evidence from [DOC1] to support the assessment.
+The response should be in table format to include security feature name, presence in the design,
+and evidence from [DOC1] to support the assessment.
 ```
 The output should be saved as a csv or plaintext file such as "ModuleName_Security_Assessment.csv"
