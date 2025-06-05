@@ -1,6 +1,6 @@
 # TrustButVerify
 
-This repository describes the prompts for each phase of the workflow.<br> 
+This repository provides the prompts for each phase of the Trust-but-Verify workflow.<br> 
 It is recommended to follow the prompts exactly as they are written for high quality results.<br>
 The prompt templates will include keywords in a format such as **{variable}**. Refer to the instructions in the section to understand what they represent and replace the variable with the file name or data that is relevant for your design.
 
