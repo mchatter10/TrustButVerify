@@ -27,7 +27,7 @@ The following prompt is to generate a security assessment of the specified desig
 Your response must be bounded from [TABLE0] and [DOC1].
 Does the design defined in [DOC1] have any of the following security features:
 {[security_features]} 
-Consider how the table's guidance for he security feature is being applied to the design. 
+Consider how the table's guidance for the security feature is being applied to the design. 
 The response should be in table format to include security feature name, presence in the design,
 and evidence from [DOC1] to support the assessment.
 ```
