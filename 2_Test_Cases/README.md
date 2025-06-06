@@ -12,7 +12,7 @@ For high-quality results, if the submodule specificaitons are embedded in the sy
 [DOC1]    =  {Submodule_Spec_Doc.pdf}
 [TABLE1]  =  {ModuleName_Security_Assessment.csv}
 Your response must be bounded from [DOC1] and [DOC1].
-List all input and output signals of the design that impact the {security_feature} of the design.
+List all signals of the design that impact the {security_feature} of the design.
 Only list the signals that directly impact {security_feature}.
 Refer to [DOC0] for the evidence of the design features that provides {security_feature}.
 The signals list must be in a table with columns for: signal type (input/output/register) and signal name
